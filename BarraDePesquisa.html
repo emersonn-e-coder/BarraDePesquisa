@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #cecece;}
+        
+
+/* style para o search */
+form.pesquisa input[type=search] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid rgb(231, 231, 231);
+  float: left;
+  width: 30%;
+  height: 7%;
+  background: #f1f1f1;
+  border-top-left-radius: 27px;
+  border-bottom-left-radius: 27px;
+  margin-top: 5%;
+  margin-left: 31%;
+  border-right: none;
+ 
+}
+input:focus{
+    
+    outline: none; /*retira a linha azul que fica no input*/
+}
+
+/* Style para o  button */
+form.pesquisa button {
+  float: left;
+  width: 6%;
+  padding: 7px;
+  background: #7bbaee;
+  color: white;
+  font-size: 17px;
+  border: 1px solid rgb(231, 231, 231);
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  margin-top: 5%;
+  margin-left: %;
+ 
+ 
+}
+
+form.pesquisa button:hover {
+  background: #0b7dda;
+}
+ 
+
+button{
+    margin-left: px;
+    border-top-right-radius: 27px;
+  border-bottom-right-radius: 27px;
+ 
+    
+}
+button:focus{
+    outline: none; 
+}
+.historico {
+width: 500px;
+}
+.fa {
+    font-size: 25px;
+    color: rgb(56, 56, 56);
+}
+datalist#historico > option {
+
+     width: 100%; 
+    }
+div.p {
+  margin-top: 25%;
+  text-align: center;
+  font-size: 15pt;
+  background-color: cornsilk;
+}
+    </style>
+</head>
+<body>
+    
+
+
+<form class="pesquisa" >
+    <input type="search" action="" placeholder="Pesquisar modelo..."list="historico">
+    <button type="submit"><i class="fa fa-search"></i></button>
+
+    <datalist id="historico">
+        <option value="Produto 01"></option>
+        <option value="Produto 02"></option>
+        <option value="Produto 03"></option>
+        <option value="Produto 04"></option>
+        <option value="Produto 05"></option>
+        <option value="Produto 06"></option>
+    </datalist>
+  </form>
+
+<br>
+<div class="p">
+  <p>Ao ajusta-lo em uma interface pode ocorrer a ocultação do x devido ao plugin
+    em uso. Para ativar a busca com a lupa, deve-se criar uma função J.S.
+  </p>
+</div>
+
+
+
+  
+</body>
+</html>
